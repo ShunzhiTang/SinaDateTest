@@ -12,6 +12,7 @@
 		24CD78AE1BDAFA36009ADC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CD78AC1BDAFA36009ADC63 /* Main.storyboard */; };
 		24CD78B01BDAFA36009ADC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD78AF1BDAFA36009ADC63 /* Assets.xcassets */; };
 		24CD78B31BDAFA36009ADC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CD78B11BDAFA36009ADC63 /* LaunchScreen.storyboard */; };
+		24CD78BB1BDAFEDF009ADC63 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD78BA1BDAFEDF009ADC63 /* NSDate+Extension.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		24CD78AF1BDAFA36009ADC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CD78B21BDAFA36009ADC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24CD78B41BDAFA36009ADC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CD78BA1BDAFEDF009ADC63 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				24CD78A81BDAFA36009ADC63 /* AppDelegate.swift */,
 				24CD78AA1BDAFA36009ADC63 /* ViewController.swift */,
+				24CD78BA1BDAFEDF009ADC63 /* NSDate+Extension.swift */,
 				24CD78AC1BDAFA36009ADC63 /* Main.storyboard */,
 				24CD78AF1BDAFA36009ADC63 /* Assets.xcassets */,
 				24CD78B11BDAFA36009ADC63 /* LaunchScreen.storyboard */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CD78BB1BDAFEDF009ADC63 /* NSDate+Extension.swift in Sources */,
 				24CD78AB1BDAFA36009ADC63 /* ViewController.swift in Sources */,
 				24CD78A91BDAFA36009ADC63 /* AppDelegate.swift in Sources */,
 			);
